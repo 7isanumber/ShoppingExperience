@@ -6,7 +6,7 @@
     font-weight: bold;
 }
 
-.card{
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 25%;
@@ -15,21 +15,21 @@
     margin-bottom: 40px;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0.8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card img{
+.card img {
     border-radius: 20px;
     width: 100%;
     height: 50%;
 }
 
-.cardText{
+.cardText {
     padding: 2px 16px 2px 16px;
 }
 
-.cardText button{
+.cardText button {
     float: right;
     background-color: #037DBE;
     color: #FFFFFF;
@@ -39,11 +39,58 @@
     cursor: pointer;
 }
 
-.borderBottom{
+.cartCard {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.cartCard:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cartCardFlex {
+    display: flex;
+}
+
+.cartCard img {
+    width: 10%;
+    flex: 10%;
+}
+
+.cartTitle {
+    font-weight: bold;
+    width: 20%;
+    flex: 20%;
+    padding-left: 10px;
+}
+
+.cartQuantity {
+    margin-top: 17px;
+    width: 50px;
+}
+
+.cartPrice {
+    width: 10%;
+    flex: 10%;
+    padding-left: 10px;
+}
+
+.removeMargins {
+    margin: 0;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.borderBottom {
     border-bottom: 1px solid #BBBBBB;
 }
 
-.removeLink{
+.removeLink {
     text-align: right;
     font-size: 80%;
     color: #037DBE;
@@ -56,24 +103,22 @@
     padding-top: 35px;
 }
 
-.tableRow{
+.tableRow {}
 
-}
-
-.tableCell{
+.tableCell {
     padding: 10px 0 10px 0;
 }
 
-.tableCell:first-child{
+.tableCell:first-child {
     font-weight: bold;
 }
 
-#cartButtons{
+#cartButtons {
     text-align: right;
     padding: 15px 3% 0 0;
 }
 
-#cartButtons button{
+#cartButtons button {
     background-color: #037D8E;
     text-decoration: none;
     border-radius: 3px;
@@ -82,7 +127,7 @@
     cursor: pointer;
 }
 
-#cartButtons #clearCartButton{
+#cartButtons #clearCartButton {
     background-color: #EEEEEE;
     border: solid 1px #037DBE;
     color: #037DBE;
@@ -138,7 +183,7 @@
     color: #000000;
 }
 
-#cardContainer{
+#cardContainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
